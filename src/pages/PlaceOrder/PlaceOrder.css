@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     gap: 50px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .place-order-left{
@@ -36,9 +36,29 @@
     max-width: max(40%,500px);
 }
 
+.payment-method{
+    border: 2px solid tomato;
+    width: 210px;
+    height: 30px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.payment-method input{
+    color: tomato;
+    
+}
+
+.payment-method label{
+    font-weight: bold;
+    margin: 5px;
+}
+
+
 .place-order .cart-total button{
     margin-top: 30px;
 }
+
 
 @media(max-width:750px){
     .place-order{
