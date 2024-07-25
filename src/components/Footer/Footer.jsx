@@ -7,8 +7,8 @@ const Footer = () => {
     <div className='footer' id='footer'>
       <div className="footer-content">
         <div className='footer-content-left'>
-        <img src={assets.logo} alt="" />
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius maxime harum nam cupiditate nulla impedit numquam atque quo, nihil maiores dicta tenetur dolores quasi asperiores blanditiis autem odit a odio?</p>
+        <img className="logo" src={assets.logo2} alt="" />
+        <p>Delivering the authentic taste of India, one meal at a time. Join us on a flavorful journey right to your doorsteps. Discover more at BhojanBazaar.</p>
         <div className="footer-social-icons">
             <img src={assets.facebook_icon} alt="" />
             <img src={assets.twitter_icon} alt="" />
@@ -28,12 +28,12 @@ const Footer = () => {
           <h2>GET IN TOUCH</h2>
           <ul>
             <li>+91-9140000123</li>
-            <li>contact@tomato.com</li>
+            <li>contact@bhojanbazaar.com</li>
           </ul>
         </div>
       </div>
       <hr />
-      <p className="footer-copyright">Copyright 2024 Tomato.com - All Right Reserved</p>
+      <p className="footer-copyright">Copyright 2024 BhojanBazaar.com - All Right Reserved</p>
     </div>
   )
 }

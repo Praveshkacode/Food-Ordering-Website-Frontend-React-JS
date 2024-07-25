@@ -6,7 +6,7 @@
 }
 
 .navbar .logo{
-    width: 150px;
+    width: 270px;
 }
 
 .navbar-menu{
@@ -101,7 +101,7 @@
 
 @media (max-width:1050px){
     .navbar .logo{
-        width: 140px;
+        width: 220px;
     }
 
     .navbar-menu{
@@ -125,7 +125,7 @@
 
 @media (max-width:900px){
     .navbar .logo{
-        width: 120px;
+        width: 200px;
     }
 
     .navbar-menu{
