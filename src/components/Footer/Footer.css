@@ -50,8 +50,11 @@
 
 }
 
-@media(max-width:750px)
-{
+@media(max-width:800px)
+{   
+    .footer .logo{
+        width: 220px;
+    }
 
     .footer-content{
         display: flex;
